@@ -24,15 +24,19 @@ Furthermore, a config file needs to exist with the following structure:
 The example file `config-example.json` can be found in this repo.
 
 ## Use krakenStandingOrder
+First of all we switch into the python virtual environment.
+```commandline
+source venv/bin/activate
+```
 The script has two modes. In the demo mode, nothing will be sent to kraken. It just shows,
 what it would do.
 ```commandline
-python3 standingOrder.py
+python ./standingOrder/standingOrder.py
 ```
 
 The `prod` mode will create the orders on kraken:
 ```commandline
-python3 standingOrder.py -m prod
+python ./standingOrder/standingOrder.py -m prod
 ```
 
 ### What happens
