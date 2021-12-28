@@ -1,0 +1,12 @@
+{
+    "krakenConnector": {
+        "api_key": "API-KEY-API-KEY from kraken",
+        "secret": "API-SECRET-API-SECRET from kraken"
+    },
+    "standingOrder": {
+        "ADAEUR": 80,
+        "XETHZEUR": 80,
+        "DOTEUR": 40,
+        "XXBTZEUR": 80
+    }
+}

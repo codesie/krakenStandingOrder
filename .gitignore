@@ -1,0 +1,8 @@
+.idea
+.vscode
+logs
+trading_bot/log
+config.json
+configTrade.json
+venv
+**/__pycache__/
